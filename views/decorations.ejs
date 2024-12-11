@@ -1,0 +1,23 @@
+<%- include("head") -%>
+<a href="/api/decorations">letöltés JSON-ként</a>
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Név</th>
+      <th>Ár</th>
+      <th>Raktár db</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% for (decor of decorations) { %>
+    <tr>
+      <td><%= decor.id %></td>
+      <td><%= decor.name %></td>
+      <td><%= decor.price %></td>
+      <td><%= decor.stock %></td>
+    </tr>
+    <% } %>
+  </tbody>
+</table>
+<%- include("foot") -%>

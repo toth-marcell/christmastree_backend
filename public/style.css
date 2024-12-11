@@ -1,0 +1,26 @@
+body {
+  background: hsl(125, 50%, 25%);
+  font-family: sans-serif;
+  margin: 30px auto;
+  width: 80%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 30px auto;
+  font-size: 1.2rem;
+}
+th,
+td {
+  border: 2px solid black;
+}
+h1 {
+  text-align: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
